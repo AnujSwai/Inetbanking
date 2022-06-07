@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="InternetWebsite Testing">
+
+	<listeners>
+		<listener class-name="com.InetBanking.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="Login Testing for multiple users">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.InetBanking.testCases.TC_LoginTest_001"/> 
+		<class name="com.InetBanking.testCases.TC_LoginDDT_002"/> 
+			
+			
+			
+	</classes>
+	          </test>
+                     </suite>
+
